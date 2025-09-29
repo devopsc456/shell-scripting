@@ -275,3 +275,20 @@ AIM: To run commands
 Start: 28/09/2025
 comment
 ```
+
+**Example Program:**
+
+```bash
+echo "Good Morning"
+echo "Today date is:"
+set -x
+date #This is date command
+pwd
+whoami
+set +x
+<<comment
+echo "Hi"
+echo "Hello"
+echo "Good Evening"
+comment
+```
