@@ -258,7 +258,7 @@ commandline.sh
 # Special Variables in Shell Scripting
 
 1. **`$#`** → Displays the **total number of arguments** passed through the script.  
-2. **`$@`** → Displays all values as separate strings (treats each as an individual argument).  
+2. **`$@`** → Displays all values as separate character (treats each as an individual argument as character).  
    - Example: `"one" "sai" "kk" "funda"`  
 3. **`$*`** → Displays all values as a single string.  
    - Example: `"one sai kk funda"`  
